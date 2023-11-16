@@ -1,0 +1,25 @@
+body{
+    background-color: #88c1d0
+}
+
+
+/* Style spécifique en fonction de la résolution de l'écran (1680px à 1920px) */
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+    body {
+        background-color: #ffca4b;
+    }
+}
+
+/* Style spécifique en fonction de la résolution de l'écran (1280px à 1680px) */
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+    body {
+        background-color: #275fa0;
+    }
+}
+
+/* Style spécifique en fonction de la résolution de l'écran (inférieure à 1280px) */
+@media screen and (max-width: 1279px) {
+    body {
+        background-color: #ffffff;
+    }
+}
